@@ -1,0 +1,4 @@
+/* Animate Carousel-content when reset container position */
+.animate-swipeToSelect {
+  transition: transform ease-in-out 200ms;
+}

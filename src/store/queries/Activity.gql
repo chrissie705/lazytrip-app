@@ -1,0 +1,21 @@
+query ($name: String) {
+  activities(filters: {
+    name: $name
+  }) {
+  	name
+    lieu
+    description
+    categories
+    schedules {
+      start
+      end
+      place
+    }
+    addresses {
+      streetAddress
+      addressLocality
+      latitude
+      longitude
+    }
+	}
+}

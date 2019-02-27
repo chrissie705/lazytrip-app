@@ -1,0 +1,76 @@
+.icon:before {
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+}
+
+/* Global icons */
+.icon-arrow-up:before {
+  content: '\e800';
+}
+.icon-arrow-right:before {
+  content: '\e800';
+}
+.icon-arrow-down:before {
+  content: '\e800';
+}
+.icon-clock:before {
+  content: '\e800';
+}
+.icon-star:before {
+  content: '\e800';
+}
+.icon-share:before {
+  content: '\e800';
+}
+.icon-invert:before {
+  content: '\e800';
+}
+.icon-description:before {
+  content: '\e800';
+}
+.icon-place:before {
+  content: '\e800';
+}
+.icon-schedule:before {
+  content: '\e800';
+}
+.icon-travel:before {
+  content: '\e800';
+}
+
+/* Event icons */
+.icon-theater:before {
+  content: '\e800';
+}
+.icon-cinema:before {
+  content: '\e800';
+}
+.icon-museum:before {
+  content: '\e800';
+}
+.icon-concert:before {
+  content: '\e800';
+}
+
+/* Travel icons */
+.icon-metro:before {
+  content: '\e800';
+}
+.icon-train:before {
+  content: '\e800';
+}
+.icon-bus:before {
+  content: '\e800';
+}
+.icon-bike:before {
+  content: '\e800';
+}
+.icon-car:before {
+  content: '\e800';
+}
+.icon-walker:before {
+  content: '\e800';
+}

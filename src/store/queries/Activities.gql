@@ -1,0 +1,29 @@
+query ($category: String, $latitude: Float, $longitude: Float) {
+  activities(
+    filters: {
+      categories: $category
+    },
+    position: {
+      latitude: $latitude,
+      longitude: $longitude
+    }
+  ) {
+  	name
+    lieu
+    description
+    categories
+    schedules {
+      start
+      end
+      place
+    }
+    addresses {
+      streetAddress
+      addressLocality
+      latitude
+      longitude
+    }
+    timeToTravel
+    notes
+	}
+}
