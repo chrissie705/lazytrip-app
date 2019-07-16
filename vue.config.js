@@ -3,6 +3,9 @@ module.exports = {
     apollo: {
       enableMocks: true,
       enableEngine: true
-    }
-  }
+    },
+    cordovaPath: 'src-cordova'
+  },
+
+  publicPath: ''
 }
