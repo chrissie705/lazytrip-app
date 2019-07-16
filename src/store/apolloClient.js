@@ -6,7 +6,7 @@ const AUTH_TOKEN = 'apollo-token';
 // Http endpoint
 const httpEndpoint =
 	process.env.VUE_APP_GRAPHQL_HTTP ||
-	'http://lazytrip-env.rnvmgyxxww.eu-west-3.elasticbeanstalk.com/graphql';
+	'http://ec2-35-180-43-129.eu-west-3.compute.amazonaws.com:4000/graphql';
 
 // Config
 const defaultOptions = {
