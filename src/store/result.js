@@ -5,7 +5,7 @@ export default {
   },
   mutations: {
     activities(state, activities) {
-      state.activities = activities;
+      state.activities = activities.splice(0, 5);
     }
   }
 }
