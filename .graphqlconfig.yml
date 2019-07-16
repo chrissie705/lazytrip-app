@@ -5,4 +5,4 @@ projects:
       - '**/*.gql'
     extensions:
       endpoints:
-        default: 'http://lazytrip-env.rnvmgyxxww.eu-west-3.elasticbeanstalk.com/graphql'
+        default: 'http://ec2-35-180-43-129.eu-west-3.compute.amazonaws.com:4000/graphql'
